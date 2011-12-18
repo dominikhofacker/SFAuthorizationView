@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9E95B1A149E4AA100A8C5E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E95B19149E4AA100A8C5E5 /* Cocoa.framework */; };
+		D9E95B24149E4AA100A8C5E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E95B22149E4AA100A8C5E5 /* InfoPlist.strings */; };
+		D9E95B26149E4AA100A8C5E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E95B25149E4AA100A8C5E5 /* main.m */; };
+		D9E95B2A149E4AA100A8C5E5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9E95B28149E4AA100A8C5E5 /* Credits.rtf */; };
+		D9E95B2D149E4AA100A8C5E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E95B2C149E4AA100A8C5E5 /* AppDelegate.m */; };
+		D9E95B30149E4AA100A8C5E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9E95B2E149E4AA100A8C5E5 /* MainMenu.xib */; };
+		D9E95B38149E4AA100A8C5E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E95B37149E4AA100A8C5E5 /* SenTestingKit.framework */; };
+		D9E95B39149E4AA100A8C5E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E95B19149E4AA100A8C5E5 /* Cocoa.framework */; };
+		D9E95B41149E4AA100A8C5E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E95B3F149E4AA100A8C5E5 /* InfoPlist.strings */; };
+		D9E95B44149E4AA100A8C5E5 /* AuthorizationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E95B43149E4AA100A8C5E5 /* AuthorizationViewTests.m */; };
+		D9E95B4E149E4AB000A8C5E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E95B4D149E4AB000A8C5E5 /* Security.framework */; };
+		D9E95B50149E4ABE00A8C5E5 /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E95B4F149E4ABE00A8C5E5 /* SecurityInterface.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9E95B3A149E4AA100A8C5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E95B0C149E4AA100A8C5E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E95B14149E4AA100A8C5E5;
+			remoteInfo = AuthorizationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9E95B15149E4AA100A8C5E5 /* AuthorizationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E95B19149E4AA100A8C5E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9E95B1C149E4AA100A8C5E5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D9E95B1D149E4AA100A8C5E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9E95B1E149E4AA100A8C5E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9E95B21149E4AA100A8C5E5 /* AuthorizationView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AuthorizationView-Info.plist"; sourceTree = "<group>"; };
+		D9E95B23149E4AA100A8C5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E95B25149E4AA100A8C5E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9E95B27149E4AA100A8C5E5 /* AuthorizationView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AuthorizationView-Prefix.pch"; sourceTree = "<group>"; };
+		D9E95B29149E4AA100A8C5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D9E95B2B149E4AA100A8C5E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9E95B2C149E4AA100A8C5E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9E95B2F149E4AA100A8C5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D9E95B36149E4AA100A8C5E5 /* AuthorizationViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthorizationViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E95B37149E4AA100A8C5E5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9E95B3E149E4AA100A8C5E5 /* AuthorizationViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AuthorizationViewTests-Info.plist"; sourceTree = "<group>"; };
+		D9E95B40149E4AA100A8C5E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9E95B42149E4AA100A8C5E5 /* AuthorizationViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewTests.h; sourceTree = "<group>"; };
+		D9E95B43149E4AA100A8C5E5 /* AuthorizationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewTests.m; sourceTree = "<group>"; };
+		D9E95B4D149E4AB000A8C5E5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D9E95B4F149E4ABE00A8C5E5 /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E95B12149E4AA100A8C5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E95B50149E4ABE00A8C5E5 /* SecurityInterface.framework in Frameworks */,
+				D9E95B4E149E4AB000A8C5E5 /* Security.framework in Frameworks */,
+				D9E95B1A149E4AA100A8C5E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E95B32149E4AA100A8C5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E95B38149E4AA100A8C5E5 /* SenTestingKit.framework in Frameworks */,
+				D9E95B39149E4AA100A8C5E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9E95B0A149E4AA100A8C5E5 = {
+			isa = PBXGroup;
+			children = (
+				D9E95B1F149E4AA100A8C5E5 /* AuthorizationView */,
+				D9E95B3C149E4AA100A8C5E5 /* AuthorizationViewTests */,
+				D9E95B18149E4AA100A8C5E5 /* Frameworks */,
+				D9E95B16149E4AA100A8C5E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E95B16149E4AA100A8C5E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E95B15149E4AA100A8C5E5 /* AuthorizationView.app */,
+				D9E95B36149E4AA100A8C5E5 /* AuthorizationViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E95B18149E4AA100A8C5E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E95B4F149E4ABE00A8C5E5 /* SecurityInterface.framework */,
+				D9E95B4D149E4AB000A8C5E5 /* Security.framework */,
+				D9E95B19149E4AA100A8C5E5 /* Cocoa.framework */,
+				D9E95B37149E4AA100A8C5E5 /* SenTestingKit.framework */,
+				D9E95B1B149E4AA100A8C5E5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E95B1B149E4AA100A8C5E5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E95B1C149E4AA100A8C5E5 /* AppKit.framework */,
+				D9E95B1D149E4AA100A8C5E5 /* CoreData.framework */,
+				D9E95B1E149E4AA100A8C5E5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D9E95B1F149E4AA100A8C5E5 /* AuthorizationView */ = {
+			isa = PBXGroup;
+			children = (
+				D9E95B2B149E4AA100A8C5E5 /* AppDelegate.h */,
+				D9E95B2C149E4AA100A8C5E5 /* AppDelegate.m */,
+				D9E95B2E149E4AA100A8C5E5 /* MainMenu.xib */,
+				D9E95B20149E4AA100A8C5E5 /* Supporting Files */,
+			);
+			path = AuthorizationView;
+			sourceTree = "<group>";
+		};
+		D9E95B20149E4AA100A8C5E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9E95B21149E4AA100A8C5E5 /* AuthorizationView-Info.plist */,
+				D9E95B22149E4AA100A8C5E5 /* InfoPlist.strings */,
+				D9E95B25149E4AA100A8C5E5 /* main.m */,
+				D9E95B27149E4AA100A8C5E5 /* AuthorizationView-Prefix.pch */,
+				D9E95B28149E4AA100A8C5E5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E95B3C149E4AA100A8C5E5 /* AuthorizationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E95B42149E4AA100A8C5E5 /* AuthorizationViewTests.h */,
+				D9E95B43149E4AA100A8C5E5 /* AuthorizationViewTests.m */,
+				D9E95B3D149E4AA100A8C5E5 /* Supporting Files */,
+			);
+			path = AuthorizationViewTests;
+			sourceTree = "<group>";
+		};
+		D9E95B3D149E4AA100A8C5E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9E95B3E149E4AA100A8C5E5 /* AuthorizationViewTests-Info.plist */,
+				D9E95B3F149E4AA100A8C5E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9E95B14149E4AA100A8C5E5 /* AuthorizationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E95B47149E4AA100A8C5E5 /* Build configuration list for PBXNativeTarget "AuthorizationView" */;
+			buildPhases = (
+				D9E95B11149E4AA100A8C5E5 /* Sources */,
+				D9E95B12149E4AA100A8C5E5 /* Frameworks */,
+				D9E95B13149E4AA100A8C5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthorizationView;
+			productName = AuthorizationView;
+			productReference = D9E95B15149E4AA100A8C5E5 /* AuthorizationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9E95B35149E4AA100A8C5E5 /* AuthorizationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E95B4A149E4AA100A8C5E5 /* Build configuration list for PBXNativeTarget "AuthorizationViewTests" */;
+			buildPhases = (
+				D9E95B31149E4AA100A8C5E5 /* Sources */,
+				D9E95B32149E4AA100A8C5E5 /* Frameworks */,
+				D9E95B33149E4AA100A8C5E5 /* Resources */,
+				D9E95B34149E4AA100A8C5E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E95B3B149E4AA100A8C5E5 /* PBXTargetDependency */,
+			);
+			name = AuthorizationViewTests;
+			productName = AuthorizationViewTests;
+			productReference = D9E95B36149E4AA100A8C5E5 /* AuthorizationViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E95B0C149E4AA100A8C5E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = CCoding;
+			};
+			buildConfigurationList = D9E95B0F149E4AA100A8C5E5 /* Build configuration list for PBXProject "AuthorizationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9E95B0A149E4AA100A8C5E5;
+			productRefGroup = D9E95B16149E4AA100A8C5E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E95B14149E4AA100A8C5E5 /* AuthorizationView */,
+				D9E95B35149E4AA100A8C5E5 /* AuthorizationViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E95B13149E4AA100A8C5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E95B24149E4AA100A8C5E5 /* InfoPlist.strings in Resources */,
+				D9E95B2A149E4AA100A8C5E5 /* Credits.rtf in Resources */,
+				D9E95B30149E4AA100A8C5E5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E95B33149E4AA100A8C5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E95B41149E4AA100A8C5E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9E95B34149E4AA100A8C5E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E95B11149E4AA100A8C5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E95B26149E4AA100A8C5E5 /* main.m in Sources */,
+				D9E95B2D149E4AA100A8C5E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E95B31149E4AA100A8C5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E95B44149E4AA100A8C5E5 /* AuthorizationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9E95B3B149E4AA100A8C5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E95B14149E4AA100A8C5E5 /* AuthorizationView */;
+			targetProxy = D9E95B3A149E4AA100A8C5E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9E95B22149E4AA100A8C5E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E95B23149E4AA100A8C5E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9E95B28149E4AA100A8C5E5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E95B29149E4AA100A8C5E5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D9E95B2E149E4AA100A8C5E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E95B2F149E4AA100A8C5E5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D9E95B3F149E4AA100A8C5E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E95B40149E4AA100A8C5E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9E95B45149E4AA100A8C5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9E95B46149E4AA100A8C5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9E95B48149E4AA100A8C5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthorizationView/AuthorizationView-Prefix.pch";
+				INFOPLIST_FILE = "AuthorizationView/AuthorizationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9E95B49149E4AA100A8C5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthorizationView/AuthorizationView-Prefix.pch";
+				INFOPLIST_FILE = "AuthorizationView/AuthorizationView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9E95B4B149E4AA100A8C5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AuthorizationView.app/Contents/MacOS/AuthorizationView";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthorizationView/AuthorizationView-Prefix.pch";
+				INFOPLIST_FILE = "AuthorizationViewTests/AuthorizationViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9E95B4C149E4AA100A8C5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AuthorizationView.app/Contents/MacOS/AuthorizationView";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthorizationView/AuthorizationView-Prefix.pch";
+				INFOPLIST_FILE = "AuthorizationViewTests/AuthorizationViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E95B0F149E4AA100A8C5E5 /* Build configuration list for PBXProject "AuthorizationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E95B45149E4AA100A8C5E5 /* Debug */,
+				D9E95B46149E4AA100A8C5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E95B47149E4AA100A8C5E5 /* Build configuration list for PBXNativeTarget "AuthorizationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E95B48149E4AA100A8C5E5 /* Debug */,
+				D9E95B49149E4AA100A8C5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9E95B4A149E4AA100A8C5E5 /* Build configuration list for PBXNativeTarget "AuthorizationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E95B4B149E4AA100A8C5E5 /* Debug */,
+				D9E95B4C149E4AA100A8C5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E95B0C149E4AA100A8C5E5 /* Project object */;
+}
